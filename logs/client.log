@@ -1,0 +1,99 @@
+[INFO] [2017-04-14 16:44:29][com.bacon.controlNode.server.DataManagerServer]Data Server is running ...
+[INFO] [2017-04-14 16:44:56][com.bacon.controlNode.client.DataManagerClient]data manager client start...
+[INFO] [2017-04-14 16:44:57][com.bacon.controlNode.service.DataCSevice]控制节点接收数据接入请求：WebRequest(type:DATA, taskId:5, param:{"fieldNum":3,"isAllString":false,"isEncrypted":false,"isPart":false,"isRegexed":false,"isSplited":false,"isWholeDb":false,"isWholeTable":false,"securityLevel":0,"topic":"test"}, action:data_persistence)
+[INFO] [2017-04-14 16:44:57][com.bacon.controlNode.service.DataCSevice]请求类型：数据持久化
+[WARN] [2017-04-14 16:44:59][org.apache.thrift.server.AbstractNonblockingServer$FrameBuffer]Got an IOException during write!
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471)
+	at org.apache.thrift.transport.TNonblockingSocket.write(TNonblockingSocket.java:164)
+	at org.apache.thrift.server.AbstractNonblockingServer$FrameBuffer.write(AbstractNonblockingServer.java:414)
+	at org.apache.thrift.server.AbstractNonblockingServer$AbstractSelectThread.handleWrite(AbstractNonblockingServer.java:221)
+	at org.apache.thrift.server.TNonblockingServer$SelectAcceptThread.select(TNonblockingServer.java:206)
+	at org.apache.thrift.server.TNonblockingServer$SelectAcceptThread.run(TNonblockingServer.java:154)
+[INFO] [2017-04-14 16:46:48][com.bacon.controlNode.client.DataManagerClient]data manager client start...
+[INFO] [2017-04-14 16:46:49][com.bacon.controlNode.service.DataCSevice]控制节点接收数据接入请求：WebRequest(type:DATA, taskId:5, param:{"fieldNum":3,"isAllString":false,"isEncrypted":false,"isPart":false,"isRegexed":false,"isSplited":false,"isWholeDb":false,"isWholeTable":false,"securityLevel":0,"topic":"test"}, action:data_persistence)
+[INFO] [2017-04-14 16:46:49][com.bacon.controlNode.service.DataCSevice]请求类型：数据持久化
+[WARN] [2017-04-14 16:46:49][org.apache.thrift.server.AbstractNonblockingServer$FrameBuffer]Got an IOException in internalRead!
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.thrift.transport.TNonblockingSocket.read(TNonblockingSocket.java:141)
+	at org.apache.thrift.server.AbstractNonblockingServer$FrameBuffer.internalRead(AbstractNonblockingServer.java:539)
+	at org.apache.thrift.server.AbstractNonblockingServer$FrameBuffer.read(AbstractNonblockingServer.java:338)
+	at org.apache.thrift.server.AbstractNonblockingServer$AbstractSelectThread.handleRead(AbstractNonblockingServer.java:203)
+	at org.apache.thrift.server.TNonblockingServer$SelectAcceptThread.select(TNonblockingServer.java:203)
+	at org.apache.thrift.server.TNonblockingServer$SelectAcceptThread.run(TNonblockingServer.java:154)
+[INFO] [2017-04-14 16:49:43][com.bacon.controlNode.server.DataManagerServer]Job_Manager.server.port9932
+[INFO] [2017-04-14 16:49:43][com.bacon.controlNode.server.DataManagerServer]Data Server is running ...
+[INFO] [2017-04-14 16:50:03][com.bacon.controlNode.client.DataManagerClient]data manager client start...
+[INFO] [2017-04-14 16:50:04][com.bacon.controlNode.service.DataCSevice]控制节点接收数据接入请求：WebRequest(type:DATA, taskId:5, param:{"fieldNum":3,"isAllString":false,"isEncrypted":false,"isPart":false,"isRegexed":false,"isSplited":false,"isWholeDb":false,"isWholeTable":false,"securityLevel":0,"topic":"test"}, action:data_persistence)
+[INFO] [2017-04-14 16:50:04][com.bacon.controlNode.service.DataCSevice]请求类型：数据持久化
+[WARN] [2017-04-14 16:50:04][org.apache.thrift.server.AbstractNonblockingServer$FrameBuffer]Got an IOException in internalRead!
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.thrift.transport.TNonblockingSocket.read(TNonblockingSocket.java:141)
+	at org.apache.thrift.server.AbstractNonblockingServer$FrameBuffer.internalRead(AbstractNonblockingServer.java:539)
+	at org.apache.thrift.server.AbstractNonblockingServer$FrameBuffer.read(AbstractNonblockingServer.java:338)
+	at org.apache.thrift.server.AbstractNonblockingServer$AbstractSelectThread.handleRead(AbstractNonblockingServer.java:203)
+	at org.apache.thrift.server.TNonblockingServer$SelectAcceptThread.select(TNonblockingServer.java:203)
+	at org.apache.thrift.server.TNonblockingServer$SelectAcceptThread.run(TNonblockingServer.java:154)
+[INFO] [2017-04-14 16:59:35][com.bacon.controlNode.client.DataManagerClient]data manager client start...
+[INFO] [2017-04-14 16:59:35][com.bacon.controlNode.service.DataCSevice]控制节点接收数据接入请求：WebRequest(type:DATA, taskId:5, param:{"fieldNum":3,"isAllString":false,"isEncrypted":false,"isPart":false,"isRegexed":false,"isSplited":false,"isWholeDb":false,"isWholeTable":false,"securityLevel":0,"topic":"test2"}, action:data_persistence)
+[INFO] [2017-04-14 16:59:35][com.bacon.controlNode.service.DataCSevice]请求类型：数据持久化
+[WARN] [2017-04-14 16:59:36][org.apache.thrift.server.AbstractNonblockingServer$FrameBuffer]Got an IOException in internalRead!
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.thrift.transport.TNonblockingSocket.read(TNonblockingSocket.java:141)
+	at org.apache.thrift.server.AbstractNonblockingServer$FrameBuffer.internalRead(AbstractNonblockingServer.java:539)
+	at org.apache.thrift.server.AbstractNonblockingServer$FrameBuffer.read(AbstractNonblockingServer.java:338)
+	at org.apache.thrift.server.AbstractNonblockingServer$AbstractSelectThread.handleRead(AbstractNonblockingServer.java:203)
+	at org.apache.thrift.server.TNonblockingServer$SelectAcceptThread.select(TNonblockingServer.java:203)
+	at org.apache.thrift.server.TNonblockingServer$SelectAcceptThread.run(TNonblockingServer.java:154)
+[INFO] [2017-04-14 17:02:07][com.bacon.controlNode.server.DataManagerServer]Data Server is running ...
+[INFO] [2017-04-14 17:02:16][com.bacon.controlNode.client.DataManagerClient]data manager client start...
+[INFO] [2017-04-14 17:02:16][com.bacon.controlNode.service.DataCSevice]控制节点接收数据接入请求：WebRequest(type:DATA, taskId:5, param:{"fieldNum":3,"isAllString":false,"isEncrypted":false,"isPart":false,"isRegexed":false,"isSplited":false,"isWholeDb":false,"isWholeTable":false,"securityLevel":0,"topic":"test2"}, action:data_persistence)
+[INFO] [2017-04-14 17:02:16][com.bacon.controlNode.service.DataCSevice]请求类型：数据持久化
+[WARN] [2017-04-14 17:02:17][org.apache.thrift.server.AbstractNonblockingServer$FrameBuffer]Got an IOException in internalRead!
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.thrift.transport.TNonblockingSocket.read(TNonblockingSocket.java:141)
+	at org.apache.thrift.server.AbstractNonblockingServer$FrameBuffer.internalRead(AbstractNonblockingServer.java:539)
+	at org.apache.thrift.server.AbstractNonblockingServer$FrameBuffer.read(AbstractNonblockingServer.java:338)
+	at org.apache.thrift.server.AbstractNonblockingServer$AbstractSelectThread.handleRead(AbstractNonblockingServer.java:203)
+	at org.apache.thrift.server.TNonblockingServer$SelectAcceptThread.select(TNonblockingServer.java:203)
+	at org.apache.thrift.server.TNonblockingServer$SelectAcceptThread.run(TNonblockingServer.java:154)
+[INFO] [2017-04-14 17:05:29][com.bacon.controlNode.client.DataManagerClient]data manager client start...
+[INFO] [2017-04-14 17:05:29][com.bacon.controlNode.service.DataCSevice]控制节点接收数据接入请求：WebRequest(type:DATA, taskId:5, param:{"fieldNum":3,"isAllString":false,"isEncrypted":false,"isPart":false,"isRegexed":false,"isSplited":false,"isWholeDb":false,"isWholeTable":false,"securityLevel":0,"topic":"test2"}, action:data_persistence)
+[INFO] [2017-04-14 17:05:29][com.bacon.controlNode.service.DataCSevice]请求类型：数据持久化
+[INFO] [2017-04-14 17:06:33][com.bacon.controlNode.server.DataManagerServer]Data Server is running ...
+[INFO] [2017-04-14 17:06:36][com.bacon.controlNode.client.DataManagerClient]data manager client start...
+[INFO] [2017-04-14 17:06:37][com.bacon.controlNode.service.DataCSevice]控制节点接收数据接入请求：WebRequest(type:DATA, taskId:5, param:{"fieldNum":3,"isAllString":false,"isEncrypted":false,"isPart":false,"isRegexed":false,"isSplited":false,"isWholeDb":false,"isWholeTable":false,"securityLevel":0,"topic":"test2"}, action:data_persistence)
+[INFO] [2017-04-14 17:06:37][com.bacon.controlNode.service.DataCSevice]请求类型：数据持久化
+[INFO] [2017-04-17 09:37:36][com.bacon.controlNode.util.AsyncTaskUtils]Threadpool Running!
+[INFO] [2017-04-17 09:38:02][com.bacon.controlNode.util.AsyncTaskUtils]Threadpool Running!
+[INFO] [2017-04-19 09:34:06][com.bacon.controlNode.server.DataManagerServer]Data Server is running ...
+[INFO] [2017-04-19 11:04:22][com.bacon.controlNode.server.DataManagerServer]Data Server is running ...
+[INFO] [2017-04-19 11:04:29][com.bacon.controlNode.client.DataManagerClient]data manager client start...
+[INFO] [2017-04-19 11:04:29][com.bacon.controlNode.service.DataCSevice]控制节点接收数据接入请求：WebRequest(type:DATA, taskId:5, param:{"fieldNum":3,"isAllString":false,"isEncrypted":false,"isPart":false,"isRegexed":false,"isSplited":false,"isWholeDb":false,"isWholeTable":false,"securityLevel":0,"topic":"test2"}, action:data_persistence)
+[INFO] [2017-04-19 11:04:29][com.bacon.controlNode.service.DataCSevice]请求类型：数据持久化
+[INFO] [2017-04-19 11:04:30][com.bacon.controlNode.util.AsyncTaskUtils]Threadpool Running!
+[INFO] [2017-04-19 23:05:10][com.bacon.controlNode.task.ConnectorTimeCount]close the connector: server ip = 192.168.10.150, topic = test2
